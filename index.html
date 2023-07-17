@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Page</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <section class="container">
+        <h1 class="heading">Register</h1>
+        <div class="form">
+            <p>Name</p>
+            <input type="text" name="text" class="form-input" placeholder="Enter Your Name">
+            <p>Mobile Number</p>
+            <input type="text" name="phone" class="form-input" placeholder="Enter Number" data-mask="00000 00000">
+            <p>Email</p>
+            <input type="email" name="email" class="form-input" placeholder="@gmail.com">
+            <p>Password</p>
+            <input type="password" name="password" class="form-input" placeholder="Password" data-mask="00000000">
+            <p>Confrom Password</p>
+            <input type="password" name="password" class="form-input" placeholder="Conform Password" data-mask="00000000">
+        </div>
+        <div class="box">
+            <input type="checkbox" name="checkbox" id="checkbox"> Check Out
+        </div>
+        <div class="bt">
+            <button type="submit" class="btn">
+                <a href="#" class="btn">Submit</a>
+            </button>
+        </div>
+        <div class="accs">
+            <p>Already have an account?</p>
+            <a href="#" type="submit" class="accse">Sign in</a>
+        </div>
+        <a href="#" type="submit" class="cls">Close</a>
+    </section>
+    <footer class="footer">
+        <p>Design By amit-mandal-kgce</p>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.15/jquery.mask.min.js"></script>
+</body>
+</html>

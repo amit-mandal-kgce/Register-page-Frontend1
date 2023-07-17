@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+body{
+    background: #2F4F4F;
+    margin: 0 10px;
+
+}
+.container{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 400px;
+    height: 650px;
+    padding: 30px 50px;
+    box-sizing: border-box;
+    background: #575757;
+}
+.heading{
+    top: 30px;
+    text-align: center;
+    height: 60px;
+    font-size: 35px;
+    color: #CD5C5C;
+}
+.form p{
+    text-align: start;
+    font-size: 23px;
+    color: #DEDEDE;
+    padding: 2px; 
+    font-weight: bold;
+    margin-top: 18px;
+}
+.form-input{
+    border: none;
+    border-bottom: 1px solid #fffafa;
+    font-size: 16px;
+    background: transparent;
+    outline: none;
+    height: 30px;
+    width: 300px;
+    color: #fff;
+}
+::placeholder{
+    color: rgba(127, 118, 118, 0.74);
+}
+.box{
+    
+    text-align: left;
+    font-size: 15px;
+    color: #FFDAB9;
+    margin-top: 19px;
+}
+#checkbox{
+    cursor: pointer;
+}
+.bt{
+    text-align: center;
+}
+.btn{
+    margin-top: 12px;
+    text-decoration: none;
+    background: #CD9B1D;
+    padding: 12px;
+    color: #ffffff;
+    border-radius: 9px;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: #58e65a;
+    color: #fff;
+}
+.accs{
+    display: flex;
+}
+.accse{
+    margin-top: 20px;
+    text-decoration: none;
+    color: #FFA500;
+}
+.accse:hover{
+    color: #FF4040;
+}
+.accs p{
+    margin-top: 20px;
+    color: #fffff7;
+}
+.cls{
+    text-decoration: none;
+    margin-left: 280px;
+    color: #FFA500;
+}
+.cls:hover{
+    color: #e65858;
+}
+.footer{
+    position: fixed;
+    left: 20px;
+    bottom: 5px;
+    color: #fffafa;
+}
+@media (max-width:824){
+    .container{
+        /* text-align: center; */
+        display: block;
+        width: 40px;
+    }
+    body{
+        height: 30px;
+        width: 20px;
+
+    }
+    .box{
+        flex-direction: column;
+    }
+    .accs{
+        text-align: center;
+    }
+    .cls{
+        text-align: center;
+    }
+    .footer{
+        text-align: center;
+    }
+    .form{
+        margin-top: 12px;
+        /* padding: fixed; */
+    }
+}
